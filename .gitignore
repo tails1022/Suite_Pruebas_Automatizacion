@@ -1,0 +1,40 @@
+# Evidencias, capturas y multimedia (no subir fotos)
+evidences/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+
+# Documentos e informes (no subir documentos)
+docs/
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# Reportes de prueba generados
+reports/
+*.html
+
+# Credenciales y configuración local privada
+config.local.php
+app/config.local.php
+.env
+
+# Python y caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Logs y temporales
+*.log
+.DS_Store
+Thumbs.db
